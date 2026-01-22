@@ -236,10 +236,10 @@ notification:
       webhook_url: ""                 # 飞书机器人 webhook URL
 
     dingtalk:
-      webhook_url: ""                 # 钉钉机器人 webhook URL
+      webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=64ca3f3833e0cf4fbd56696d0e886e8a2b51d06f555c6e21715c6c41ddfc766c"                 # 钉钉机器人 webhook URL
 
     wework:
-      webhook_url: ""                 # 企业微信机器人 webhook URL
+      webhook_url: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=8fe2b837-e5a1-4c4a-9af3-78bc916420c6"                 # 企业微信机器人 webhook URL
       msg_type: "markdown"            # 消息类型：markdown(群机器人) | text(个人微信应用)
 
     telegram:
